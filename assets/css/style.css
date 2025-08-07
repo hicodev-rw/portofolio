@@ -58,10 +58,17 @@ body::after {
   }
 }
 
-
 @media (min-width: 1024px) {
   body::before {
     background-attachment: fixed;
+  }
+}
+
+@media (max-width: 994px) {
+  body::before {
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../img/herobg.webp");
+    background-position: center center;
   }
 }
 
@@ -1208,33 +1215,4 @@ section .container {
 
 .credits a:hover {
   color: #fff;
-}
-
-
-.resume-btn {
-  position: fixed;
-  bottom: 30px;
-  right: 30px;
-  padding: 12px 18px;
-  background-color: #111;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
-  text-decoration: none;
-  border-radius: 30px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
-  z-index: 1000;
-  transition: background-color 0.3s ease, transform 0.2s ease;
-}
-
-.resume-btn:hover {
-  background-color: #333;
-  transform: translateY(-2px);
-}
-
-/* Hide on very small devices if needed */
-@media (max-width: 480px) {
-  .resume-btn {
-    display: none;
-  }
 }
