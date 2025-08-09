@@ -48,7 +48,9 @@ body::after {
 /* small screens settings */
 @media (max-width: 994px) {
   body::after {
-    display: none;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
   }
 }
 
