@@ -2,7 +2,7 @@ function typeWriter() {
     const professions = [
         "Software Engineer",
         "AI Engineer",
-        "Full Stack Developer",
+        "AI Researcher",
         "Database Specialist",
         "AI Model Developer",
     ];
