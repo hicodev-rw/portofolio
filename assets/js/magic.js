@@ -2,9 +2,7 @@ function typeWriter() {
     const professions = [
         "Software Engineer",
         "AI Engineer",
-        "AI Researcher",
-        "Database Specialist",
-        "AI Model Developer",
+        "AI Researcher"
     ];
 
     let professionIndex = 0;
