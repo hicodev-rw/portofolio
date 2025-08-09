@@ -48,8 +48,10 @@ body::after {
 /* small screens settings */
 @media (max-width: 994px) {
   body::after {
-    top: 30%;
+    top: 25%;
     left: 50%;
+    width: 50vw;
+    height: 50vw;
     transform: translate(-50%, -50%);
   }
 }
