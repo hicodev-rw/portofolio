@@ -53,6 +53,7 @@ body::after {
     width: 50vw;
     height: 50vw;
     transform: translate(-50%, -50%);
+    display: none;
   }
 }
 
